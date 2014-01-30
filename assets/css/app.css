@@ -225,13 +225,17 @@ header.shrink nav .nav-toggle,
 .latest-articles h2 {
   font-weight: 400;
 }
+.latest-articles article p {
+  padding-right: 0;
+}
 .single-post h2 {
   font-weight: 400;
 }
 .post-content p {
   font-family: "Open Sans", "Helvetica", Arial, sans-serif;
   line-height: 24px;
-  text-align: justify;
+  text-align: left;
+  padding-right: 10%;
 }
 .post-content .featured-img-wrap {
   position: relative;
@@ -643,6 +647,7 @@ footer a {
   .post-content p {
     font-family: "Open Sans", "Helvetica", Arial, sans-serif;
     text-align: justify;
+    padding-right: 0;
   }
   .post-content .featured-img-wrap {
     position: relative;
@@ -805,6 +810,7 @@ footer a {
   .post-content p {
     font-size: 16px;
     line-height: 24px;
+    padding-right: 0px;
   }
   .post-content .background-header h1 {
     padding: 0.5em 1em;
